@@ -1,0 +1,95 @@
+<!--begin::Main-->   
+<app-header-mobile></app-header-mobile>
+
+<div class="d-flex flex-column flex-root">
+    <!--begin::Page-->
+    <div class="d-flex flex-row flex-column-fluid page">
+        <!--begin::Wrapper-->
+        <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+            <!--begin::Header-->
+            <div id="kt_header" class="header header-fixed">
+                <!--begin::Container-->
+                <div class="container d-flex align-items-stretch justify-content-between">
+                    <!--begin::Left-->
+                    <div class="d-flex align-items-stretch mr-3">
+                        <!--begin:: Header old student-->
+                        <app-header-desktop class="displayNormal" [role]="'old-student'" [actif]="'Carte'"></app-header-desktop>
+
+                    </div>
+                    <!--end::Left-->
+
+                    <!--begin::Topbar-->
+                    <app-top-user-profile class="displayNormal"></app-top-user-profile>
+                    <!--end::Topbar-->
+                </div>
+                <!--end::Container-->
+            </div>
+            <!--end::Header-->
+            <!--begin::Content-->
+            <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+                <!--begin::Subheader-->
+                <div class="subheader py-2 py-lg-12 subheader-transparent" id="kt_subheader">
+                    <div class="container d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                        <!--begin::Info-->
+                        <div class="d-flex align-items-center flex-wrap mr-1">
+                            <!--begin::Heading-->
+                            <div class="d-flex flex-column">
+                                <!--begin::Title-->
+                                <h2 class="text-white font-weight-bold my-2 mr-5">Carte réseau</h2>
+                                <!--end::Title-->
+                                <!--begin::Breadcrumb-->
+                                <div class="d-flex align-items-center font-weight-bold my-2">
+                                    <!--begin::Item-->
+                                    <a href="#" class="opacity-75 hover-opacity-100">
+                                        <i class="flaticon2-shelter text-white icon-1x"></i>
+                                    </a>
+                                    <span class="label label-dot label-sm bg-white opacity-75 mx-3"></span>
+                                    <a href="" class="text-white text-hover-white opacity-75 hover-opacity-100">Carte</a>
+                                    <!--end::Item-->
+                                </div>
+                                <!--end::Breadcrumb-->
+                            </div>
+                            <!--end::Heading-->
+                        </div>
+                        <!--end::Info-->
+                    </div>
+                </div>
+                <!--end::Subheader-->
+                <!--begin::Entry-->
+                <div class="d-flex flex-column-fluid">
+                    <!--begin::Container-->
+                    <div class="container">
+                        <!--begin::Education-->
+                        <div class="row">
+                            <!--begin::Aside-->
+                            <div class="col-md-12">
+                                <!--begin::Nav Panel Widget 1-->
+                                <div class="card card-custom gutter-b">
+                                    <!--begin::Body-->
+                                    <div class="card-body" style="height: 1000px;">
+
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        <!--end::Education-->
+                    </div>
+                    <!--end::Container-->
+                </div>
+                <!--end::Entry-->
+            </div>
+            <!--end::Content-->
+            <!--begin::Footer-->
+            <app-footer></app-footer>
+            <!--end::Footer-->
+        </div>
+        <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
+</div>
+<!--end::Main-->
+ 
+<!--begin::Sticky Toolbar-->
+<app-tool-bar></app-tool-bar>
+<!--end::Sticky Toolbar-->

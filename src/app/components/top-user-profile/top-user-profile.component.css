@@ -1,0 +1,12 @@
+.show {
+    position: absolute;
+    transform: translate3d(-235px, 79px, 0px);
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+    transition: all .5s ease-in-out;
+}
+
+.hide {
+    transition: all .5s ease-in;
+}
